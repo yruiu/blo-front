@@ -1,0 +1,27 @@
+
+.card{
+  display: inline-block;
+  background: white;
+  transition: all .5s linear;
+  width: 50%;
+  margin: 3% 0;
+  border: none!important;
+  text-align: center;
+  text-decoration: none!important;
+  max-width: 100%;
+
+  img{
+    width: 100%;
+    height: 40vh;
+  }
+  .Anons{
+    color:#313131;
+    text-decoration: none!important;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &:hover{
+    transform: scale(1.0099);
+    box-shadow: 10px 5px 5px grey;
+  }
+}

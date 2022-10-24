@@ -1,0 +1,35 @@
+.form-admin {
+  margin-top: 2%;
+}
+.form-admin label {
+  text-align: center;
+  margin: 0 auto;
+}
+.form-admin .button-admin {
+  width: 100%;
+}
+.form-admin .button-admin .button {
+  background: #00a6ff;
+  width: 100%;
+}
+.form-admin .form {
+  color: #313131;
+}
+.form-admin .form .text-admin {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.form-admin .form .text-admin:focus {
+  border: none;
+  background: #313131;
+  color: #fff;
+}
+.form-admin .form .anons-admin {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.form-admin .form .anons-admin:focus {
+  border: none;
+  background: #313131;
+  color: #fff;
+}

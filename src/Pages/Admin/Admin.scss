@@ -1,0 +1,34 @@
+$mainC:#313131;
+@mixin foc{
+  &-admin{
+    transition: all .5s ease;
+    &:focus{
+      border: none;
+      background:$mainC;
+      color: #fff;
+    }
+  }
+}
+.form-admin{
+  margin-top: 2%;
+  label{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .button-admin{
+    width: 100%;
+    .button{
+      background: #00a6ff;
+      width: 100%;
+    }
+  }
+  .form{
+    color: $mainC;
+    .text{
+      @include foc
+    }
+    .anons{
+     @include foc;
+    }
+  }
+}
